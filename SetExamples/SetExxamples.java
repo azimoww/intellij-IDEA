@@ -14,7 +14,7 @@ public class SetExxamples {
             System.out.println("HashSet: " + cities);
             System.out.println("Попытка добавить дубликат (Baku): " + added);
 
-            System.out.println("------------------------------------------------");
+            System.out.println("");
 
 
             LinkedHashSet<String> linkedCities = new LinkedHashSet<>();
@@ -51,4 +51,5 @@ public class SetExxamples {
             System.out.println("descendingSet(): " + set.descendingSet());
         }
     }
+
 
