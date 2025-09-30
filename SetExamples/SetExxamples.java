@@ -2,7 +2,7 @@ package SetExamples;
 
 import java.util.*;
 
-public class SetExamples {
+public class SetExxamples {
     public static void main(String[] args) {
 
 
@@ -12,9 +12,11 @@ public class SetExamples {
         cities.add("Paris");
         cities.add("Berlin");
         cities.add("Rome");
+
+
         boolean added = cities.add("Baku");
         System.out.println("HashSet: " + cities);
-        System.out.println("Попытка добавить дубликат (Baku): " + added);
+        System.out.println("Добавили дубликат (Baku)? -> " + added);
 
         System.out.println();
 
@@ -25,7 +27,8 @@ public class SetExamples {
         linkedCities.add("Paris");
         linkedCities.add("Berlin");
         linkedCities.add("Rome");
-        System.out.println("LinkedHashSet (порядок сохранён): " + linkedCities);
+
+        System.out.println("LinkedHashSet (сохраняет порядок): " + linkedCities);
 
         System.out.println();
 
@@ -36,9 +39,11 @@ public class SetExamples {
         numbers.add(20);
         numbers.add(8);
         numbers.add(1);
+
         System.out.println("TreeSet (отсортировано): " + numbers);
 
         System.out.println();
+
 
 
         NavigableSet<Integer> set = new TreeSet<>();
@@ -53,5 +58,3 @@ public class SetExamples {
         System.out.println("descendingSet(): " + set.descendingSet());
     }
 }
-
-
