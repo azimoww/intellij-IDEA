@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SetAndMapsExample {
+ class SetAndMapsExample {
     public static void main(String[] args) {
         
         HashMap<String, Integer> students = new HashMap<>();
@@ -90,3 +90,4 @@ public class SetAndMapsExample {
         }
     }
 }
+
